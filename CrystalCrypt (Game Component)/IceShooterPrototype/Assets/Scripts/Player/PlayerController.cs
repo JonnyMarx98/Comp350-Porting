@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Rewired;
 using UnityEngine.UI;
+using UnityStandardAssets.CrossPlatformInput;
 
 [RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour
@@ -87,8 +88,8 @@ public class PlayerController : MonoBehaviour
         if (!charging && !frozen)
         {
             //Calculate movement velocity as a 3D vector
-            float _xMov = player.GetAxis("MoveHorizontal");
-            float _zMov = player.GetAxis("MoveVertical");
+            float _xMov = CrossPlatformInputManager.GetAxis("MoveHorizontal");
+            float _zMov = CrossPlatformInputManager.GetAxis("MoveVertical");
             Vector3 _movHorizontal = transform.right * _xMov;
             Vector3 _movVertical = transform.forward * _zMov;
 
@@ -109,8 +110,8 @@ public class PlayerController : MonoBehaviour
                 CancelInvoke("SkateNoise");
             }
 
-            float _xRot = player.GetAxis("LookHorizontal");
-            float _zRot = player.GetAxis("LookVertical");
+            float _xRot = CrossPlatformInputManager.GetAxis("LookHorizontal");
+            float _zRot = CrossPlatformInputManager.GetAxis("LookVertical");
 
             if (_xRot != 0 || _zRot != 0)
             {
