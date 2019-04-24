@@ -1,0 +1,1 @@
+﻿public enum ItemActivator {  LeftTrigger, RightTrigger, None }

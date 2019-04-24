@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 97d4e2a9fabdfac45b8ee07f4670df4d
+timeCreated: 1519215672
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BuffSkate_Head
+    100002: BuffSkate_Hips
+    100004: //RootNode
+    100006: BuffSkate_LeftArm
+    100008: BuffSkate_LeftFoot
+    100010: BuffSkate_LeftForeArm
+    100012: BuffSkate_LeftHand
+    100014: BuffSkate_LeftHandIndex1
+    100016: BuffSkate_LeftHandIndex2
+    100018: BuffSkate_LeftHandMiddle1
+    100020: BuffSkate_LeftHandMiddle2
+    100022: BuffSkate_LeftHandPinky1
+    100024: BuffSkate_LeftHandPinky2
+    100026: BuffSkate_LeftHandThumb1
+    100028: BuffSkate_LeftHandThumb2
+    100030: BuffSkate_LeftLeg
+    100032: BuffSkate_LeftShoulder
+    100034: BuffSkate_LeftToeBase
+    100036: BuffSkate_LeftUpLeg
+    100038: BuffSkate_Neck
+    100040: BuffSkate_Reference
+    100042: BuffSkate_RightArm
+    100044: BuffSkate_RightFoot
+    100046: BuffSkate_RightForeArm
+    100048: BuffSkate_RightHand
+    100050: BuffSkate_RightHandIndex1
+    100052: BuffSkate_RightHandIndex2
+    100054: BuffSkate_RightHandMiddle1
+    100056: BuffSkate_RightHandMiddle2
+    100058: BuffSkate_RightHandPinky1
+    100060: BuffSkate_RightHandPinky2
+    100062: BuffSkate_RightHandThumb1
+    100064: BuffSkate_RightHandThumb2
+    100066: BuffSkate_RightLeg
+    100068: BuffSkate_RightShoulder
+    100070: BuffSkate_RightToeBase
+    100072: BuffSkate_RightUpLeg
+    100074: BuffSkate_Spine
+    100076: BuffSkate_Spine1
+    100078: BuffSkate_Spine2
+    100080: hockey
+    100082: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_ChestEndEffector
+    100084: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_ChestOriginEffector
+    100086: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Head
+    100088: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_HeadEffector
+    100090: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips
+    100092: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_HipsEffector
+    100094: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftAnkleEffector
+    100096: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftArm
+    100098: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftElbowEffector
+    100100: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFoot
+    100102: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFootEffector
+    100104: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftForeArm
+    100106: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftHand
+    100108: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftHipEffector
+    100110: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftKneeEffector
+    100112: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftLeg
+    100114: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulder
+    100116: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulderEffector
+    100118: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftToeBase
+    100120: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftUpLeg
+    100122: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftWristEffector
+    100124: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Neck
+    100126: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference
+    100128: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightAnkleEffector
+    100130: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightArm
+    100132: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightElbowEffector
+    100134: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFoot
+    100136: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFootEffector
+    100138: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightForeArm
+    100140: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightHand
+    100142: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightHipEffector
+    100144: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightKneeEffector
+    100146: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightLeg
+    100148: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulder
+    100150: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulderEffector
+    100152: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightToeBase
+    100154: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightUpLeg
+    100156: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightWristEffector
+    100158: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine
+    100160: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1
+    100162: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2
+    100164: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Head
+    100166: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips
+    100168: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftArm
+    100170: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftFoot
+    100172: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftForeArm
+    100174: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftHand
+    100176: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftLeg
+    100178: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftShoulder
+    100180: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftToeBase
+    100182: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftUpLeg
+    100184: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Neck
+    100186: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference
+    100188: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightArm
+    100190: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightFoot
+    100192: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightForeArm
+    100194: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightHand
+    100196: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightLeg
+    100198: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightShoulder
+    100200: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightToeBase
+    100202: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightUpLeg
+    100204: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine
+    100206: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1
+    100208: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2
+    100210: BuffSkaterMovement:BuffSkate_Ctrl_ChestEndEffector
+    100212: BuffSkaterMovement:BuffSkate_Ctrl_ChestOriginEffector
+    100214: BuffSkaterMovement:BuffSkate_Ctrl_Head
+    100216: BuffSkaterMovement:BuffSkate_Ctrl_HeadEffector
+    100218: BuffSkaterMovement:BuffSkate_Ctrl_Hips
+    100220: BuffSkaterMovement:BuffSkate_Ctrl_HipsEffector
+    100222: BuffSkaterMovement:BuffSkate_Ctrl_LeftAnkleEffector
+    100224: BuffSkaterMovement:BuffSkate_Ctrl_LeftArm
+    100226: BuffSkaterMovement:BuffSkate_Ctrl_LeftElbowEffector
+    100228: BuffSkaterMovement:BuffSkate_Ctrl_LeftFoot
+    100230: BuffSkaterMovement:BuffSkate_Ctrl_LeftFootEffector
+    100232: BuffSkaterMovement:BuffSkate_Ctrl_LeftForeArm
+    100234: BuffSkaterMovement:BuffSkate_Ctrl_LeftHand
+    100236: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandIndex1
+    100238: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandIndex2
+    100240: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandIndexEffector
+    100242: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandMiddle1
+    100244: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandMiddle2
+    100246: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandMiddleEffector
+    100248: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandPinky1
+    100250: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandPinky2
+    100252: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandPinkyEffector
+    100254: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandThumb1
+    100256: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandThumb2
+    100258: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandThumbEffector
+    100260: BuffSkaterMovement:BuffSkate_Ctrl_LeftHipEffector
+    100262: BuffSkaterMovement:BuffSkate_Ctrl_LeftKneeEffector
+    100264: BuffSkaterMovement:BuffSkate_Ctrl_LeftLeg
+    100266: BuffSkaterMovement:BuffSkate_Ctrl_LeftShoulder
+    100268: BuffSkaterMovement:BuffSkate_Ctrl_LeftShoulderEffector
+    100270: BuffSkaterMovement:BuffSkate_Ctrl_LeftToeBase
+    100272: BuffSkaterMovement:BuffSkate_Ctrl_LeftUpLeg
+    100274: BuffSkaterMovement:BuffSkate_Ctrl_LeftWristEffector
+    100276: BuffSkaterMovement:BuffSkate_Ctrl_Neck
+    100278: BuffSkaterMovement:BuffSkate_Ctrl_Reference
+    100280: BuffSkaterMovement:BuffSkate_Ctrl_RightAnkleEffector
+    100282: BuffSkaterMovement:BuffSkate_Ctrl_RightArm
+    100284: BuffSkaterMovement:BuffSkate_Ctrl_RightElbowEffector
+    100286: BuffSkaterMovement:BuffSkate_Ctrl_RightFoot
+    100288: BuffSkaterMovement:BuffSkate_Ctrl_RightFootEffector
+    100290: BuffSkaterMovement:BuffSkate_Ctrl_RightForeArm
+    100292: BuffSkaterMovement:BuffSkate_Ctrl_RightHand
+    100294: BuffSkaterMovement:BuffSkate_Ctrl_RightHandIndex1
+    100296: BuffSkaterMovement:BuffSkate_Ctrl_RightHandIndex2
+    100298: BuffSkaterMovement:BuffSkate_Ctrl_RightHandIndexEffector
+    100300: BuffSkaterMovement:BuffSkate_Ctrl_RightHandMiddle1
+    100302: BuffSkaterMovement:BuffSkate_Ctrl_RightHandMiddle2
+    100304: BuffSkaterMovement:BuffSkate_Ctrl_RightHandMiddleEffector
+    100306: BuffSkaterMovement:BuffSkate_Ctrl_RightHandPinky1
+    100308: BuffSkaterMovement:BuffSkate_Ctrl_RightHandPinky2
+    100310: BuffSkaterMovement:BuffSkate_Ctrl_RightHandPinkyEffector
+    100312: BuffSkaterMovement:BuffSkate_Ctrl_RightHandThumb1
+    100314: BuffSkaterMovement:BuffSkate_Ctrl_RightHandThumb2
+    100316: BuffSkaterMovement:BuffSkate_Ctrl_RightHandThumbEffector
+    100318: BuffSkaterMovement:BuffSkate_Ctrl_RightHipEffector
+    100320: BuffSkaterMovement:BuffSkate_Ctrl_RightKneeEffector
+    100322: BuffSkaterMovement:BuffSkate_Ctrl_RightLeg
+    100324: BuffSkaterMovement:BuffSkate_Ctrl_RightShoulder
+    100326: BuffSkaterMovement:BuffSkate_Ctrl_RightShoulderEffector
+    100328: BuffSkaterMovement:BuffSkate_Ctrl_RightToeBase
+    100330: BuffSkaterMovement:BuffSkate_Ctrl_RightUpLeg
+    100332: BuffSkaterMovement:BuffSkate_Ctrl_RightWristEffector
+    100334: BuffSkaterMovement:BuffSkate_Ctrl_Spine
+    100336: BuffSkaterMovement:BuffSkate_Ctrl_Spine1
+    100338: BuffSkaterMovement:BuffSkate_Ctrl_Spine2
+    100340: BuffSkaterMovement:BuffSkate_Head
+    100342: BuffSkaterMovement:BuffSkate_Hips
+    100344: BuffSkaterMovement:BuffSkate_LeftArm
+    100346: BuffSkaterMovement:BuffSkate_LeftFoot
+    100348: BuffSkaterMovement:BuffSkate_LeftForeArm
+    100350: BuffSkaterMovement:BuffSkate_LeftHand
+    100352: BuffSkaterMovement:BuffSkate_LeftHandIndex1
+    100354: BuffSkaterMovement:BuffSkate_LeftHandIndex2
+    100356: BuffSkaterMovement:BuffSkate_LeftHandMiddle1
+    100358: BuffSkaterMovement:BuffSkate_LeftHandMiddle2
+    100360: BuffSkaterMovement:BuffSkate_LeftHandPinky1
+    100362: BuffSkaterMovement:BuffSkate_LeftHandPinky2
+    100364: BuffSkaterMovement:BuffSkate_LeftHandThumb1
+    100366: BuffSkaterMovement:BuffSkate_LeftHandThumb2
+    100368: BuffSkaterMovement:BuffSkate_LeftLeg
+    100370: BuffSkaterMovement:BuffSkate_LeftShoulder
+    100372: BuffSkaterMovement:BuffSkate_LeftToeBase
+    100374: BuffSkaterMovement:BuffSkate_LeftUpLeg
+    100376: BuffSkaterMovement:BuffSkate_Neck
+    100378: BuffSkaterMovement:BuffSkate_Reference
+    100380: BuffSkaterMovement:BuffSkate_RightArm
+    100382: BuffSkaterMovement:BuffSkate_RightFoot
+    100384: BuffSkaterMovement:BuffSkate_RightForeArm
+    100386: BuffSkaterMovement:BuffSkate_RightHand
+    100388: BuffSkaterMovement:BuffSkate_RightHandIndex1
+    100390: BuffSkaterMovement:BuffSkate_RightHandIndex2
+    100392: BuffSkaterMovement:BuffSkate_RightHandMiddle1
+    100394: BuffSkaterMovement:BuffSkate_RightHandMiddle2
+    100396: BuffSkaterMovement:BuffSkate_RightHandPinky1
+    100398: BuffSkaterMovement:BuffSkate_RightHandPinky2
+    100400: BuffSkaterMovement:BuffSkate_RightHandThumb1
+    100402: BuffSkaterMovement:BuffSkate_RightHandThumb2
+    100404: BuffSkaterMovement:BuffSkate_RightLeg
+    100406: BuffSkaterMovement:BuffSkate_RightShoulder
+    100408: BuffSkaterMovement:BuffSkate_RightToeBase
+    100410: BuffSkaterMovement:BuffSkate_RightUpLeg
+    100412: BuffSkaterMovement:BuffSkate_Spine
+    100414: BuffSkaterMovement:BuffSkate_Spine1
+    100416: BuffSkaterMovement:BuffSkate_Spine2
+    100418: BuffSkaterMovement:hockey
+    400000: BuffSkate_Head
+    400002: BuffSkate_Hips
+    400004: //RootNode
+    400006: BuffSkate_LeftArm
+    400008: BuffSkate_LeftFoot
+    400010: BuffSkate_LeftForeArm
+    400012: BuffSkate_LeftHand
+    400014: BuffSkate_LeftHandIndex1
+    400016: BuffSkate_LeftHandIndex2
+    400018: BuffSkate_LeftHandMiddle1
+    400020: BuffSkate_LeftHandMiddle2
+    400022: BuffSkate_LeftHandPinky1
+    400024: BuffSkate_LeftHandPinky2
+    400026: BuffSkate_LeftHandThumb1
+    400028: BuffSkate_LeftHandThumb2
+    400030: BuffSkate_LeftLeg
+    400032: BuffSkate_LeftShoulder
+    400034: BuffSkate_LeftToeBase
+    400036: BuffSkate_LeftUpLeg
+    400038: BuffSkate_Neck
+    400040: BuffSkate_Reference
+    400042: BuffSkate_RightArm
+    400044: BuffSkate_RightFoot
+    400046: BuffSkate_RightForeArm
+    400048: BuffSkate_RightHand
+    400050: BuffSkate_RightHandIndex1
+    400052: BuffSkate_RightHandIndex2
+    400054: BuffSkate_RightHandMiddle1
+    400056: BuffSkate_RightHandMiddle2
+    400058: BuffSkate_RightHandPinky1
+    400060: BuffSkate_RightHandPinky2
+    400062: BuffSkate_RightHandThumb1
+    400064: BuffSkate_RightHandThumb2
+    400066: BuffSkate_RightLeg
+    400068: BuffSkate_RightShoulder
+    400070: BuffSkate_RightToeBase
+    400072: BuffSkate_RightUpLeg
+    400074: BuffSkate_Spine
+    400076: BuffSkate_Spine1
+    400078: BuffSkate_Spine2
+    400080: hockey
+    400082: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_ChestEndEffector
+    400084: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_ChestOriginEffector
+    400086: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Head
+    400088: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_HeadEffector
+    400090: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips
+    400092: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_HipsEffector
+    400094: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftAnkleEffector
+    400096: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftArm
+    400098: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftElbowEffector
+    400100: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFoot
+    400102: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFootEffector
+    400104: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftForeArm
+    400106: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftHand
+    400108: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftHipEffector
+    400110: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftKneeEffector
+    400112: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftLeg
+    400114: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulder
+    400116: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulderEffector
+    400118: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftToeBase
+    400120: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftUpLeg
+    400122: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftWristEffector
+    400124: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Neck
+    400126: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference
+    400128: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightAnkleEffector
+    400130: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightArm
+    400132: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightElbowEffector
+    400134: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFoot
+    400136: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFootEffector
+    400138: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightForeArm
+    400140: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightHand
+    400142: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightHipEffector
+    400144: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightKneeEffector
+    400146: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightLeg
+    400148: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulder
+    400150: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulderEffector
+    400152: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightToeBase
+    400154: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightUpLeg
+    400156: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightWristEffector
+    400158: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine
+    400160: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1
+    400162: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2
+    400164: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Head
+    400166: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips
+    400168: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftArm
+    400170: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftFoot
+    400172: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftForeArm
+    400174: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftHand
+    400176: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftLeg
+    400178: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftShoulder
+    400180: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftToeBase
+    400182: IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftUpLeg
+    400184: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Neck
+    400186: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference
+    400188: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightArm
+    400190: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightFoot
+    400192: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightForeArm
+    400194: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightHand
+    400196: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightLeg
+    400198: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightShoulder
+    400200: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightToeBase
+    400202: IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightUpLeg
+    400204: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine
+    400206: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1
+    400208: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2
+    400210: BuffSkaterMovement:BuffSkate_Ctrl_ChestEndEffector
+    400212: BuffSkaterMovement:BuffSkate_Ctrl_ChestOriginEffector
+    400214: BuffSkaterMovement:BuffSkate_Ctrl_Head
+    400216: BuffSkaterMovement:BuffSkate_Ctrl_HeadEffector
+    400218: BuffSkaterMovement:BuffSkate_Ctrl_Hips
+    400220: BuffSkaterMovement:BuffSkate_Ctrl_HipsEffector
+    400222: BuffSkaterMovement:BuffSkate_Ctrl_LeftAnkleEffector
+    400224: BuffSkaterMovement:BuffSkate_Ctrl_LeftArm
+    400226: BuffSkaterMovement:BuffSkate_Ctrl_LeftElbowEffector
+    400228: BuffSkaterMovement:BuffSkate_Ctrl_LeftFoot
+    400230: BuffSkaterMovement:BuffSkate_Ctrl_LeftFootEffector
+    400232: BuffSkaterMovement:BuffSkate_Ctrl_LeftForeArm
+    400234: BuffSkaterMovement:BuffSkate_Ctrl_LeftHand
+    400236: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandIndex1
+    400238: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandIndex2
+    400240: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandIndexEffector
+    400242: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandMiddle1
+    400244: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandMiddle2
+    400246: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandMiddleEffector
+    400248: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandPinky1
+    400250: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandPinky2
+    400252: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandPinkyEffector
+    400254: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandThumb1
+    400256: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandThumb2
+    400258: BuffSkaterMovement:BuffSkate_Ctrl_LeftHandThumbEffector
+    400260: BuffSkaterMovement:BuffSkate_Ctrl_LeftHipEffector
+    400262: BuffSkaterMovement:BuffSkate_Ctrl_LeftKneeEffector
+    400264: BuffSkaterMovement:BuffSkate_Ctrl_LeftLeg
+    400266: BuffSkaterMovement:BuffSkate_Ctrl_LeftShoulder
+    400268: BuffSkaterMovement:BuffSkate_Ctrl_LeftShoulderEffector
+    400270: BuffSkaterMovement:BuffSkate_Ctrl_LeftToeBase
+    400272: BuffSkaterMovement:BuffSkate_Ctrl_LeftUpLeg
+    400274: BuffSkaterMovement:BuffSkate_Ctrl_LeftWristEffector
+    400276: BuffSkaterMovement:BuffSkate_Ctrl_Neck
+    400278: BuffSkaterMovement:BuffSkate_Ctrl_Reference
+    400280: BuffSkaterMovement:BuffSkate_Ctrl_RightAnkleEffector
+    400282: BuffSkaterMovement:BuffSkate_Ctrl_RightArm
+    400284: BuffSkaterMovement:BuffSkate_Ctrl_RightElbowEffector
+    400286: BuffSkaterMovement:BuffSkate_Ctrl_RightFoot
+    400288: BuffSkaterMovement:BuffSkate_Ctrl_RightFootEffector
+    400290: BuffSkaterMovement:BuffSkate_Ctrl_RightForeArm
+    400292: BuffSkaterMovement:BuffSkate_Ctrl_RightHand
+    400294: BuffSkaterMovement:BuffSkate_Ctrl_RightHandIndex1
+    400296: BuffSkaterMovement:BuffSkate_Ctrl_RightHandIndex2
+    400298: BuffSkaterMovement:BuffSkate_Ctrl_RightHandIndexEffector
+    400300: BuffSkaterMovement:BuffSkate_Ctrl_RightHandMiddle1
+    400302: BuffSkaterMovement:BuffSkate_Ctrl_RightHandMiddle2
+    400304: BuffSkaterMovement:BuffSkate_Ctrl_RightHandMiddleEffector
+    400306: BuffSkaterMovement:BuffSkate_Ctrl_RightHandPinky1
+    400308: BuffSkaterMovement:BuffSkate_Ctrl_RightHandPinky2
+    400310: BuffSkaterMovement:BuffSkate_Ctrl_RightHandPinkyEffector
+    400312: BuffSkaterMovement:BuffSkate_Ctrl_RightHandThumb1
+    400314: BuffSkaterMovement:BuffSkate_Ctrl_RightHandThumb2
+    400316: BuffSkaterMovement:BuffSkate_Ctrl_RightHandThumbEffector
+    400318: BuffSkaterMovement:BuffSkate_Ctrl_RightHipEffector
+    400320: BuffSkaterMovement:BuffSkate_Ctrl_RightKneeEffector
+    400322: BuffSkaterMovement:BuffSkate_Ctrl_RightLeg
+    400324: BuffSkaterMovement:BuffSkate_Ctrl_RightShoulder
+    400326: BuffSkaterMovement:BuffSkate_Ctrl_RightShoulderEffector
+    400328: BuffSkaterMovement:BuffSkate_Ctrl_RightToeBase
+    400330: BuffSkaterMovement:BuffSkate_Ctrl_RightUpLeg
+    400332: BuffSkaterMovement:BuffSkate_Ctrl_RightWristEffector
+    400334: BuffSkaterMovement:BuffSkate_Ctrl_Spine
+    400336: BuffSkaterMovement:BuffSkate_Ctrl_Spine1
+    400338: BuffSkaterMovement:BuffSkate_Ctrl_Spine2
+    400340: BuffSkaterMovement:BuffSkate_Head
+    400342: BuffSkaterMovement:BuffSkate_Hips
+    400344: BuffSkaterMovement:BuffSkate_LeftArm
+    400346: BuffSkaterMovement:BuffSkate_LeftFoot
+    400348: BuffSkaterMovement:BuffSkate_LeftForeArm
+    400350: BuffSkaterMovement:BuffSkate_LeftHand
+    400352: BuffSkaterMovement:BuffSkate_LeftHandIndex1
+    400354: BuffSkaterMovement:BuffSkate_LeftHandIndex2
+    400356: BuffSkaterMovement:BuffSkate_LeftHandMiddle1
+    400358: BuffSkaterMovement:BuffSkate_LeftHandMiddle2
+    400360: BuffSkaterMovement:BuffSkate_LeftHandPinky1
+    400362: BuffSkaterMovement:BuffSkate_LeftHandPinky2
+    400364: BuffSkaterMovement:BuffSkate_LeftHandThumb1
+    400366: BuffSkaterMovement:BuffSkate_LeftHandThumb2
+    400368: BuffSkaterMovement:BuffSkate_LeftLeg
+    400370: BuffSkaterMovement:BuffSkate_LeftShoulder
+    400372: BuffSkaterMovement:BuffSkate_LeftToeBase
+    400374: BuffSkaterMovement:BuffSkate_LeftUpLeg
+    400376: BuffSkaterMovement:BuffSkate_Neck
+    400378: BuffSkaterMovement:BuffSkate_Reference
+    400380: BuffSkaterMovement:BuffSkate_RightArm
+    400382: BuffSkaterMovement:BuffSkate_RightFoot
+    400384: BuffSkaterMovement:BuffSkate_RightForeArm
+    400386: BuffSkaterMovement:BuffSkate_RightHand
+    400388: BuffSkaterMovement:BuffSkate_RightHandIndex1
+    400390: BuffSkaterMovement:BuffSkate_RightHandIndex2
+    400392: BuffSkaterMovement:BuffSkate_RightHandMiddle1
+    400394: BuffSkaterMovement:BuffSkate_RightHandMiddle2
+    400396: BuffSkaterMovement:BuffSkate_RightHandPinky1
+    400398: BuffSkaterMovement:BuffSkate_RightHandPinky2
+    400400: BuffSkaterMovement:BuffSkate_RightHandThumb1
+    400402: BuffSkaterMovement:BuffSkate_RightHandThumb2
+    400404: BuffSkaterMovement:BuffSkate_RightLeg
+    400406: BuffSkaterMovement:BuffSkate_RightShoulder
+    400408: BuffSkaterMovement:BuffSkate_RightToeBase
+    400410: BuffSkaterMovement:BuffSkate_RightUpLeg
+    400412: BuffSkaterMovement:BuffSkate_Spine
+    400414: BuffSkaterMovement:BuffSkate_Spine1
+    400416: BuffSkaterMovement:BuffSkate_Spine2
+    400418: BuffSkaterMovement:hockey
+    4300000: hockey
+    4300002: BuffSkaterMovement:hockey
+    7400000: BuffSkate_Idle
+    9500000: //RootNode
+    13700000: hockey
+    13700002: BuffSkaterMovement:hockey
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'BuffSkate_Idle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'BuffSkaterMovement:BuffSkate_LeftLeg' has
+      translation animation that will be discarded.\n\t'BuffSkaterMovement:BuffSkate_RightLeg'
+      has translation animation that will be discarded.\n\t'BuffSkaterMovement:BuffSkate_RightForeArm'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BuffSkate_Idle
+      takeName: BuffSkate_Idle
+      firstFrame: 67
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BuffSkate_Reference
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_LeftUpLeg
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_LeftUpLeg/BuffSkate_LeftLeg
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_LeftUpLeg/BuffSkate_LeftLeg/BuffSkate_LeftFoot
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_LeftUpLeg/BuffSkate_LeftLeg/BuffSkate_LeftFoot/BuffSkate_LeftToeBase
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_RightUpLeg
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_RightUpLeg/BuffSkate_RightLeg
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_RightUpLeg/BuffSkate_RightLeg/BuffSkate_RightFoot
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_RightUpLeg/BuffSkate_RightLeg/BuffSkate_RightFoot/BuffSkate_RightToeBase
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandIndex1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandIndex1/BuffSkate_LeftHandIndex2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandMiddle1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandMiddle1/BuffSkate_LeftHandMiddle2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandPinky1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandPinky1/BuffSkate_LeftHandPinky2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandThumb1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_LeftShoulder/BuffSkate_LeftArm/BuffSkate_LeftForeArm/BuffSkate_LeftHand/BuffSkate_LeftHandThumb1/BuffSkate_LeftHandThumb2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_Neck
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_Neck/BuffSkate_Head
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandIndex1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandIndex1/BuffSkate_RightHandIndex2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandMiddle1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandMiddle1/BuffSkate_RightHandMiddle2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandPinky1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandPinky1/BuffSkate_RightHandPinky2
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandThumb1
+        weight: 1
+      - path: BuffSkate_Reference/BuffSkate_Hips/BuffSkate_Spine/BuffSkate_Spine1/BuffSkate_Spine2/BuffSkate_RightShoulder/BuffSkate_RightArm/BuffSkate_RightForeArm/BuffSkate_RightHand/BuffSkate_RightHandThumb1/BuffSkate_RightHandThumb2
+        weight: 1
+      - path: hockey
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_ChestEndEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_ChestOriginEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_HeadEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftUpLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFoot
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFoot/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftToeBase
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightUpLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFoot
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFoot/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightToeBase
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulder
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftForeArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftForeArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftHand
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Neck
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Neck/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Head
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulder
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightForeArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightForeArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightHand
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_HipsEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftAnkleEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftElbowEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftFootEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftHipEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftKneeEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftShoulderEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_LeftWristEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightAnkleEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightElbowEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightFootEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightHipEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightKneeEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightShoulderEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Ctrl_RightWristEffector
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftUpLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftFoot
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftFoot/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftToeBase
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightUpLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightLeg
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightFoot
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightUpLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightLeg/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightFoot/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightToeBase
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftShoulder
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftForeArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftForeArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_LeftHand
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Neck
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Neck/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Head
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightShoulder
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightForeArm
+        weight: 1
+      - path: IceDude_2handed_movement:Ice_Dude_rigged:Character1_Reference/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Hips/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine1/IceDude_2handed_movement:Ice_Dude_rigged:Character1_Spine2/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightShoulder/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightForeArm/IceDude_2handed_movement:Ice_Dude_rigged:Character1_RightHand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

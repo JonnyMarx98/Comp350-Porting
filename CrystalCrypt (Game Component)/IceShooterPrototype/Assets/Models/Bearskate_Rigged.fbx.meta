@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: ed2ef684038dc584aaf3deb649cffc53
+timeCreated: 1519765969
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BearSkate1_Head
+    100002: BearSkate1_Hips
+    100004: BearSkate1_LeftArm
+    100006: BearSkate1_LeftFoot
+    100008: BearSkate1_LeftForeArm
+    100010: BearSkate1_LeftHand
+    100012: BearSkate1_LeftHandMiddle1
+    100014: BearSkate1_LeftHandMiddle2
+    100016: BearSkate1_LeftHandPinky1
+    100018: BearSkate1_LeftHandPinky2
+    100020: BearSkate1_LeftHandThumb1
+    100022: BearSkate1_LeftHandThumb2
+    100024: BearSkate1_LeftLeg
+    100026: BearSkate1_LeftShoulder
+    100028: BearSkate1_LeftToeBase
+    100030: BearSkate1_LeftUpLeg
+    100032: BearSkate1_Neck
+    100034: BearSkate1_Reference
+    100036: BearSkate1_RightArm
+    100038: BearSkate1_RightFoot
+    100040: BearSkate1_RightForeArm
+    100042: BearSkate1_RightHand
+    100044: BearSkate1_RightHandMiddle1
+    100046: BearSkate1_RightHandMiddle2
+    100048: BearSkate1_RightHandPinky1
+    100050: BearSkate1_RightHandPinky2
+    100052: BearSkate1_RightHandThumb1
+    100054: BearSkate1_RightHandThumb2
+    100056: BearSkate1_RightLeg
+    100058: BearSkate1_RightShoulder
+    100060: BearSkate1_RightToeBase
+    100062: BearSkate1_RightUpLeg
+    100064: BearSkate1_Spine
+    100066: BearSkate1_Spine1
+    100068: BearSkate1_Spine2
+    100070: BearSkate:Bear
+    100072: //RootNode
+    400000: BearSkate1_Head
+    400002: BearSkate1_Hips
+    400004: BearSkate1_LeftArm
+    400006: BearSkate1_LeftFoot
+    400008: BearSkate1_LeftForeArm
+    400010: BearSkate1_LeftHand
+    400012: BearSkate1_LeftHandMiddle1
+    400014: BearSkate1_LeftHandMiddle2
+    400016: BearSkate1_LeftHandPinky1
+    400018: BearSkate1_LeftHandPinky2
+    400020: BearSkate1_LeftHandThumb1
+    400022: BearSkate1_LeftHandThumb2
+    400024: BearSkate1_LeftLeg
+    400026: BearSkate1_LeftShoulder
+    400028: BearSkate1_LeftToeBase
+    400030: BearSkate1_LeftUpLeg
+    400032: BearSkate1_Neck
+    400034: BearSkate1_Reference
+    400036: BearSkate1_RightArm
+    400038: BearSkate1_RightFoot
+    400040: BearSkate1_RightForeArm
+    400042: BearSkate1_RightHand
+    400044: BearSkate1_RightHandMiddle1
+    400046: BearSkate1_RightHandMiddle2
+    400048: BearSkate1_RightHandPinky1
+    400050: BearSkate1_RightHandPinky2
+    400052: BearSkate1_RightHandThumb1
+    400054: BearSkate1_RightHandThumb2
+    400056: BearSkate1_RightLeg
+    400058: BearSkate1_RightShoulder
+    400060: BearSkate1_RightToeBase
+    400062: BearSkate1_RightUpLeg
+    400064: BearSkate1_Spine
+    400066: BearSkate1_Spine1
+    400068: BearSkate1_Spine2
+    400070: BearSkate:Bear
+    400072: //RootNode
+    4300000: BearSkate:Bear
+    9500000: //RootNode
+    13700000: BearSkate:Bear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

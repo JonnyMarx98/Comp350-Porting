@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: 209d1934882951042ada5e0ee5c4b6f1
+timeCreated: 1518002077
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Head
+    100002: hips
+    100004: IceScater:Character1_Ctrl_ChestEndEffector
+    100006: IceScater:Character1_Ctrl_ChestOriginEffector
+    100008: IceScater:Character1_Ctrl_Head
+    100010: IceScater:Character1_Ctrl_HeadEffector
+    100012: IceScater:Character1_Ctrl_Hips
+    100014: IceScater:Character1_Ctrl_HipsEffector
+    100016: IceScater:Character1_Ctrl_LeftAnkleEffector
+    100018: IceScater:Character1_Ctrl_LeftArm
+    100020: IceScater:Character1_Ctrl_LeftElbowEffector
+    100022: IceScater:Character1_Ctrl_LeftFoot
+    100024: IceScater:Character1_Ctrl_LeftFootEffector
+    100026: IceScater:Character1_Ctrl_LeftForeArm
+    100028: IceScater:Character1_Ctrl_LeftHand
+    100030: IceScater:Character1_Ctrl_LeftHipEffector
+    100032: IceScater:Character1_Ctrl_LeftKneeEffector
+    100034: IceScater:Character1_Ctrl_LeftLeg
+    100036: IceScater:Character1_Ctrl_LeftShoulder
+    100038: IceScater:Character1_Ctrl_LeftShoulderEffector
+    100040: IceScater:Character1_Ctrl_LeftToeBase
+    100042: IceScater:Character1_Ctrl_LeftUpLeg
+    100044: IceScater:Character1_Ctrl_LeftWristEffector
+    100046: IceScater:Character1_Ctrl_Neck
+    100048: IceScater:Character1_Ctrl_Reference
+    100050: IceScater:Character1_Ctrl_RightAnkleEffector
+    100052: IceScater:Character1_Ctrl_RightArm
+    100054: IceScater:Character1_Ctrl_RightElbowEffector
+    100056: IceScater:Character1_Ctrl_RightFoot
+    100058: IceScater:Character1_Ctrl_RightFootEffector
+    100060: IceScater:Character1_Ctrl_RightForeArm
+    100062: IceScater:Character1_Ctrl_RightHand
+    100064: IceScater:Character1_Ctrl_RightHipEffector
+    100066: IceScater:Character1_Ctrl_RightKneeEffector
+    100068: IceScater:Character1_Ctrl_RightLeg
+    100070: IceScater:Character1_Ctrl_RightShoulder
+    100072: IceScater:Character1_Ctrl_RightShoulderEffector
+    100074: IceScater:Character1_Ctrl_RightToeBase
+    100076: IceScater:Character1_Ctrl_RightUpLeg
+    100078: IceScater:Character1_Ctrl_RightWristEffector
+    100080: IceScater:Character1_Ctrl_Spine
+    100082: IceScater:Character1_Ctrl_Spine1
+    100084: IceScater:Character1_Ctrl_Spine2
+    100086: IceScater:Character1_Head
+    100088: IceScater:Character1_Hips
+    100090: IceScater:Character1_LeftArm
+    100092: IceScater:Character1_LeftFoot
+    100094: IceScater:Character1_LeftForeArm
+    100096: IceScater:Character1_LeftHand
+    100098: IceScater:Character1_LeftLeg
+    100100: IceScater:Character1_LeftShoulder
+    100102: IceScater:Character1_LeftToeBase
+    100104: IceScater:Character1_LeftUpLeg
+    100106: IceScater:Character1_Neck
+    100108: IceScater:Character1_Reference
+    100110: IceScater:Character1_RightArm
+    100112: IceScater:Character1_RightFoot
+    100114: IceScater:Character1_RightForeArm
+    100116: IceScater:Character1_RightHand
+    100118: IceScater:Character1_RightLeg
+    100120: IceScater:Character1_RightShoulder
+    100122: IceScater:Character1_RightToeBase
+    100124: IceScater:Character1_RightUpLeg
+    100126: IceScater:Character1_Spine
+    100128: IceScater:Character1_Spine1
+    100130: IceScater:Character1_Spine2
+    100132: LeftArm
+    100134: LeftFoot
+    100136: LeftForeArm
+    100138: LeftHand
+    100140: LeftLeg
+    100142: LeftShoulder
+    100144: LeftToeBase
+    100146: LeftUpLeg
+    100148: //RootNode
+    100150: Neck
+    100152: Reference
+    100154: RightArm
+    100156: RightFoot
+    100158: RightForeArm
+    100160: RightHand
+    100162: RightLeg
+    100164: RightShoulder
+    100166: RightToeBase
+    100168: RightUpLeg
+    100170: Speed
+    100172: Spine
+    100174: Spine1
+    100176: Spine2
+    400000: Head
+    400002: hips
+    400004: IceScater:Character1_Ctrl_ChestEndEffector
+    400006: IceScater:Character1_Ctrl_ChestOriginEffector
+    400008: IceScater:Character1_Ctrl_Head
+    400010: IceScater:Character1_Ctrl_HeadEffector
+    400012: IceScater:Character1_Ctrl_Hips
+    400014: IceScater:Character1_Ctrl_HipsEffector
+    400016: IceScater:Character1_Ctrl_LeftAnkleEffector
+    400018: IceScater:Character1_Ctrl_LeftArm
+    400020: IceScater:Character1_Ctrl_LeftElbowEffector
+    400022: IceScater:Character1_Ctrl_LeftFoot
+    400024: IceScater:Character1_Ctrl_LeftFootEffector
+    400026: IceScater:Character1_Ctrl_LeftForeArm
+    400028: IceScater:Character1_Ctrl_LeftHand
+    400030: IceScater:Character1_Ctrl_LeftHipEffector
+    400032: IceScater:Character1_Ctrl_LeftKneeEffector
+    400034: IceScater:Character1_Ctrl_LeftLeg
+    400036: IceScater:Character1_Ctrl_LeftShoulder
+    400038: IceScater:Character1_Ctrl_LeftShoulderEffector
+    400040: IceScater:Character1_Ctrl_LeftToeBase
+    400042: IceScater:Character1_Ctrl_LeftUpLeg
+    400044: IceScater:Character1_Ctrl_LeftWristEffector
+    400046: IceScater:Character1_Ctrl_Neck
+    400048: IceScater:Character1_Ctrl_Reference
+    400050: IceScater:Character1_Ctrl_RightAnkleEffector
+    400052: IceScater:Character1_Ctrl_RightArm
+    400054: IceScater:Character1_Ctrl_RightElbowEffector
+    400056: IceScater:Character1_Ctrl_RightFoot
+    400058: IceScater:Character1_Ctrl_RightFootEffector
+    400060: IceScater:Character1_Ctrl_RightForeArm
+    400062: IceScater:Character1_Ctrl_RightHand
+    400064: IceScater:Character1_Ctrl_RightHipEffector
+    400066: IceScater:Character1_Ctrl_RightKneeEffector
+    400068: IceScater:Character1_Ctrl_RightLeg
+    400070: IceScater:Character1_Ctrl_RightShoulder
+    400072: IceScater:Character1_Ctrl_RightShoulderEffector
+    400074: IceScater:Character1_Ctrl_RightToeBase
+    400076: IceScater:Character1_Ctrl_RightUpLeg
+    400078: IceScater:Character1_Ctrl_RightWristEffector
+    400080: IceScater:Character1_Ctrl_Spine
+    400082: IceScater:Character1_Ctrl_Spine1
+    400084: IceScater:Character1_Ctrl_Spine2
+    400086: IceScater:Character1_Head
+    400088: IceScater:Character1_Hips
+    400090: IceScater:Character1_LeftArm
+    400092: IceScater:Character1_LeftFoot
+    400094: IceScater:Character1_LeftForeArm
+    400096: IceScater:Character1_LeftHand
+    400098: IceScater:Character1_LeftLeg
+    400100: IceScater:Character1_LeftShoulder
+    400102: IceScater:Character1_LeftToeBase
+    400104: IceScater:Character1_LeftUpLeg
+    400106: IceScater:Character1_Neck
+    400108: IceScater:Character1_Reference
+    400110: IceScater:Character1_RightArm
+    400112: IceScater:Character1_RightFoot
+    400114: IceScater:Character1_RightForeArm
+    400116: IceScater:Character1_RightHand
+    400118: IceScater:Character1_RightLeg
+    400120: IceScater:Character1_RightShoulder
+    400122: IceScater:Character1_RightToeBase
+    400124: IceScater:Character1_RightUpLeg
+    400126: IceScater:Character1_Spine
+    400128: IceScater:Character1_Spine1
+    400130: IceScater:Character1_Spine2
+    400132: LeftArm
+    400134: LeftFoot
+    400136: LeftForeArm
+    400138: LeftHand
+    400140: LeftLeg
+    400142: LeftShoulder
+    400144: LeftToeBase
+    400146: LeftUpLeg
+    400148: //RootNode
+    400150: Neck
+    400152: Reference
+    400154: RightArm
+    400156: RightFoot
+    400158: RightForeArm
+    400160: RightHand
+    400162: RightLeg
+    400164: RightShoulder
+    400166: RightToeBase
+    400168: RightUpLeg
+    400170: Speed
+    400172: Spine
+    400174: Spine1
+    400176: Spine2
+    4300000: Speed
+    7400000: Move_anim
+    9500000: //RootNode
+    13700000: Speed
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Move_anim' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'LeftLeg' has translation animation that will
+      be discarded.\n\t'RightLeg' has translation animation that will be discarded.\n\t'LeftForeArm'
+      has translation animation that will be discarded.\n\t'RightForeArm' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Move_anim
+      takeName: Move_anim
+      firstFrame: 6
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_ChestEndEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_ChestOriginEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_HeadEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_LeftUpLeg
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_LeftUpLeg/IceScater:Character1_Ctrl_LeftLeg
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_LeftUpLeg/IceScater:Character1_Ctrl_LeftLeg/IceScater:Character1_Ctrl_LeftFoot
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_LeftUpLeg/IceScater:Character1_Ctrl_LeftLeg/IceScater:Character1_Ctrl_LeftFoot/IceScater:Character1_Ctrl_LeftToeBase
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_RightUpLeg
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_RightUpLeg/IceScater:Character1_Ctrl_RightLeg
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_RightUpLeg/IceScater:Character1_Ctrl_RightLeg/IceScater:Character1_Ctrl_RightFoot
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_RightUpLeg/IceScater:Character1_Ctrl_RightLeg/IceScater:Character1_Ctrl_RightFoot/IceScater:Character1_Ctrl_RightToeBase
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_LeftShoulder
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_LeftShoulder/IceScater:Character1_Ctrl_LeftArm
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_LeftShoulder/IceScater:Character1_Ctrl_LeftArm/IceScater:Character1_Ctrl_LeftForeArm
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_LeftShoulder/IceScater:Character1_Ctrl_LeftArm/IceScater:Character1_Ctrl_LeftForeArm/IceScater:Character1_Ctrl_LeftHand
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_Neck
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_Neck/IceScater:Character1_Ctrl_Head
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_RightShoulder
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_RightShoulder/IceScater:Character1_Ctrl_RightArm
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_RightShoulder/IceScater:Character1_Ctrl_RightArm/IceScater:Character1_Ctrl_RightForeArm
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_Hips/IceScater:Character1_Ctrl_Spine/IceScater:Character1_Ctrl_Spine1/IceScater:Character1_Ctrl_Spine2/IceScater:Character1_Ctrl_RightShoulder/IceScater:Character1_Ctrl_RightArm/IceScater:Character1_Ctrl_RightForeArm/IceScater:Character1_Ctrl_RightHand
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_HipsEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftAnkleEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftElbowEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftFootEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftHipEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftKneeEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftShoulderEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_LeftWristEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightAnkleEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightElbowEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightFootEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightHipEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightKneeEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightShoulderEffector
+        weight: 1
+      - path: IceScater:Character1_Ctrl_Reference/IceScater:Character1_Ctrl_RightWristEffector
+        weight: 1
+      - path: IceScater:Character1_Reference
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_LeftUpLeg
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_LeftUpLeg/IceScater:Character1_LeftLeg
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_LeftUpLeg/IceScater:Character1_LeftLeg/IceScater:Character1_LeftFoot
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_LeftUpLeg/IceScater:Character1_LeftLeg/IceScater:Character1_LeftFoot/IceScater:Character1_LeftToeBase
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_RightUpLeg
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_RightUpLeg/IceScater:Character1_RightLeg
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_RightUpLeg/IceScater:Character1_RightLeg/IceScater:Character1_RightFoot
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_RightUpLeg/IceScater:Character1_RightLeg/IceScater:Character1_RightFoot/IceScater:Character1_RightToeBase
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_LeftShoulder
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_LeftShoulder/IceScater:Character1_LeftArm
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_LeftShoulder/IceScater:Character1_LeftArm/IceScater:Character1_LeftForeArm
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_LeftShoulder/IceScater:Character1_LeftArm/IceScater:Character1_LeftForeArm/IceScater:Character1_LeftHand
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_Neck
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_Neck/IceScater:Character1_Head
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_RightShoulder
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_RightShoulder/IceScater:Character1_RightArm
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_RightShoulder/IceScater:Character1_RightArm/IceScater:Character1_RightForeArm
+        weight: 1
+      - path: IceScater:Character1_Reference/IceScater:Character1_Hips/IceScater:Character1_Spine/IceScater:Character1_Spine1/IceScater:Character1_Spine2/IceScater:Character1_RightShoulder/IceScater:Character1_RightArm/IceScater:Character1_RightForeArm/IceScater:Character1_RightHand
+        weight: 1
+      - path: Reference
+        weight: 1
+      - path: Reference/hips
+        weight: 1
+      - path: Reference/hips/LeftUpLeg
+        weight: 1
+      - path: Reference/hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Reference/hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Reference/hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Reference/hips/RightUpLeg
+        weight: 1
+      - path: Reference/hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Reference/hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Reference/hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      - path: Reference/hips/Spine
+        weight: 1
+      - path: Reference/hips/Spine/Spine1
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/LeftShoulder
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/RightShoulder
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/RightShoulder/RightArm
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Reference/hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Speed
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
