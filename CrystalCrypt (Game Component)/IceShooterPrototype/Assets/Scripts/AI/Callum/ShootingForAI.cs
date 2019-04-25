@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Rewired;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Shooting : MonoBehaviour
 {
@@ -91,7 +92,7 @@ public class Shooting : MonoBehaviour
                 if (currentWeapon.fireRate == Weapon.FireRate.Automatic)
                 {
                     //shoot every x seconds
-                    if (player.GetButtonDown("Fire"))
+                    if (player.GetButtonDown("Fire") || System.Math.Abs(CrossPlatformInputManager.GetAxis("LookHorizontal")) > 0.95f || System.Math.Abs(CrossPlatformInputManager.GetAxis("LookVertical")) > 0.95f)
                     {
                         InvokeRepeating("AutomaticFire", 0f, currentWeapon.shotCooldown);
                     }
@@ -102,7 +103,7 @@ public class Shooting : MonoBehaviour
                 }
                 else
                 {
-                    if (player.GetButtonDown("Fire"))
+                    if (player.GetButtonDown("Fire") || System.Math.Abs(CrossPlatformInputManager.GetAxis("LookHorizontal")) > 0.95f || System.Math.Abs(CrossPlatformInputManager.GetAxis("LookVertical")) > 0.95f)
                     {
                         Fire();
                     }
@@ -124,7 +125,7 @@ public class Shooting : MonoBehaviour
             }
             else if (currentWeapon.weaponType == Weapon.WeaponType.Projectile)
             {
-                if (player.GetButtonDown("Fire"))
+                if (player.GetButtonDown("Fire") || System.Math.Abs(CrossPlatformInputManager.GetAxis("LookHorizontal")) > 0.95f || System.Math.Abs(CrossPlatformInputManager.GetAxis("LookVertical")) > 0.95f)
                 {
                     PlayGunShot();
                     LaunchProjectile();
@@ -157,6 +158,7 @@ public class Shooting : MonoBehaviour
 
     void Fire()
     {
+        
         //check to see if shot cooldown has passed
         if (shotTimer >= currentWeapon.shotCooldown && remainingAmmo > 0)
         {
@@ -205,6 +207,7 @@ public class Shooting : MonoBehaviour
 
     void SpawnBullet()
     {
+        
         if (currentWeapon.fireRate != Weapon.FireRate.Spread)
         {
             GameObject bulletIns = Instantiate(currentWeapon.bulletPrefab, bulletSpawnPos.position, Quaternion.identity);

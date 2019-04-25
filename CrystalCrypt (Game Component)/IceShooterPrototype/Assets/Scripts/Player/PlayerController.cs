@@ -113,6 +113,9 @@ public class PlayerController : MonoBehaviour
             float _xRot = CrossPlatformInputManager.GetAxis("LookHorizontal");
             float _zRot = CrossPlatformInputManager.GetAxis("LookVertical");
 
+            //float _xRot = player.GetAxis("LookHorizontal");
+            //float _zRot = player.GetAxis("LookVertical");
+
             if (_xRot != 0 || _zRot != 0)
             {
                 motor.Rotate(_xRot, _zRot);
@@ -147,6 +150,18 @@ public class PlayerController : MonoBehaviour
         }
 
         CheckScore();
+        TestButton();
+    }
+
+    void TestButton()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            print("H: " + player.GetAxis("MoveHorizontal"));
+            print("V: " + player.GetAxis("MoveVertical"));
+            print("AbsH: " + System.Math.Abs(player.GetAxis("MoveHorizontal")));
+            print("AbsV: " + System.Math.Abs(player.GetAxis("MoveVertical")));
+        }
     }
 
     public void SetNameAndMat()

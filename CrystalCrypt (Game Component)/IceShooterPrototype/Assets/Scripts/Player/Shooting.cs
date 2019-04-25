@@ -91,20 +91,22 @@ public class ShootingForAI : MonoBehaviour
                 if (currentWeapon.fireRate == Weapon.FireRate.Automatic)
                 {
                     //shoot every x seconds
-                    if (player.GetButtonDown("Fire"))
+                    if (player.GetButtonDown("Fire") || System.Math.Abs(player.GetAxis("MoveHorizontal")) > 0.5f || System.Math.Abs(player.GetAxis("MoveVertical")) > 0.5f)
                     {
                         InvokeRepeating("AutomaticFire", 0f, currentWeapon.shotCooldown);
+                        
                     }
-                    else if (player.GetButtonUp("Fire"))
+                    else if (System.Math.Abs(player.GetAxis("MoveHorizontal")) < 0.5f || System.Math.Abs(player.GetAxis("MoveVertical")) < 0.5f) //(player.GetButtonUp("Fire"))
                     {
                         CancelInvoke();
                     }
                 }
                 else
                 {
-                    if (player.GetButtonDown("Fire"))
+                    if (player.GetButtonDown("Fire") || System.Math.Abs(player.GetAxis("MoveHorizontal")) > 0.5f || System.Math.Abs(player.GetAxis("MoveVertical")) > 0.5f) // player.GetButtonDown("Fire")
                     {
                         Fire();
+                        
                     }
                 }
 
@@ -128,9 +130,11 @@ public class ShootingForAI : MonoBehaviour
                 {
                     PlayGunShot();
                     LaunchProjectile();
+                    
                 }
             }
             CheckAmmo();
+            
         }
     }
 
@@ -157,6 +161,7 @@ public class ShootingForAI : MonoBehaviour
 
     void Fire()
     {
+        
         //check to see if shot cooldown has passed
         if (shotTimer >= currentWeapon.shotCooldown && remainingAmmo > 0)
         {
